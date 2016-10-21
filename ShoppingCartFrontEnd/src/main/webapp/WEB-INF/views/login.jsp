@@ -9,7 +9,16 @@
 <body>
 this is my login page
 
+${errorMessage} 
 
-${name}  //normal spring command
+<form action="/validate">
+User ID:<input type="text" name="userID">
+Password:<input type="password" name="password">
+
+<input type="submit" value="login">
+</form>
+
+
+${name}  
 </body>
 </html>
