@@ -9,16 +9,14 @@
 <body>
 this is my login page
 
-${errorMessage} 
 
-<form action="/validate">
+
+<form action="validate" method="post">
 User ID:<input type="text" name="userID">
 Password:<input type="password" name="password">
 
 <input type="submit" value="login">
 </form>
 
-
-${name}  
 </body>
 </html>
