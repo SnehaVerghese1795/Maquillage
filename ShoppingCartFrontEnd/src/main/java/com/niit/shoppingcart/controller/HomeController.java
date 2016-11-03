@@ -15,6 +15,16 @@ public class HomeController {
 		return "index";
 	}
 	
+	@RequestMapping("/register")
+	
+	public String registerhere(Model m)
+	{
+		m.addAttribute("registerMessage","You successfully logged in");
+		
+		//You need to store the data in DB.
+		return "index";
+	}
+	
 	@RequestMapping("/validate")
 	 
 	public String validate(@RequestParam(name="userID")String id,@RequestParam("password") String pwd,Model model, HttpSession session)

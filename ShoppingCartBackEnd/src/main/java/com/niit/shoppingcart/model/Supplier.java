@@ -1,26 +1,15 @@
 package com.niit.shoppingcart.model;
 
-import javax.persistence.Column;
-import javax.persistence.Entity;
 import javax.persistence.Id;
-import javax.persistence.Table;
 
-import org.springframework.stereotype.Component;
-
-@Entity
-@Table(name="category")
-@Component("C1")//creates the object of category
-public class Category {
-	
-	@Id
+public class Supplier {
+    @Id
 	private String id;
 	
-	@Column(name="name")
 	private String name;
 	
-	@Column(name="description")
 	private String description;
-	
+
 	public String getId() {
 		return id;
 	}
