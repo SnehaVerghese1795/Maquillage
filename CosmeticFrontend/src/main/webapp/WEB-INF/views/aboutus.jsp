@@ -4,15 +4,20 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 <title>About Us</title>
 </head>
 <body>
-
+<jsp:include page="/WEB-INF/views/header.jsp"></jsp:include>
 <div class="heroArea">
 <div class="slideShow">
 
 
-<img alt="Discover Maquillage" src="/CosmeticFrontend/src/main/webapp/resources/images/Axe_Cosmetics_L.jpg" style="width: 950px; height: 510px;">
+<img alt="Discover Maquillage" src="file:///C:/Users/Sneha/Desktop/Cosmetics/LOreal-India-Brand-Ambassadors.jpg" style="width:1189px; height: 520px;">
 
  
 <ul class="paging" style="display:none;">
@@ -23,6 +28,6 @@
 <div class="landingTitle"><h1 style="color:maroon;"><font face="AR DECODE">Celebrating First Year of Beauty</font ></h1></div>
 <p class="landingText" style="color:maroon" align="justify"><font face="Cambria">Being the first year, Maquillage, would grow to become the world's leading luxury beauty brand, will epitomize beauty and glamour with a quintessential French touch. Women seeking the finest in beauty look to Maquillage for the highest quality in skincare, encased in timeless style and delivering scientifically proven results. The brand continues to strengthen its reputation as a makeup authority and skincare innovator, not merely keeping pace, but surpassing expectations by continually taking science and creativity to new levels. With coveted and revered pillars including the timeless Trésor perfume, the award-winning Définicils mascara, cutting-edge Génifique Youth Activating Concentrate, and the richly refined L'Absolu Lipstick, Maquillage is committed to making the best in beauty accessible and relatable to women in over 160 countries around the world. Maquillage is the brand of women, represented by some of the most accomplished actors and models today . Maquillage's mission is to provide women with superior products and services that fulfill their quest and enthusiasm for beauty.</font > </p>
 
-
+<jsp:include page="/WEB-INF/views/footer.jsp"></jsp:include>
 </body>
 </html>

@@ -14,15 +14,15 @@
    <style>
    /* Set black background color, white text and some padding */
     footer {
-      background-color: #000000;
-      color: gray;
+      background: transparent !important;
+      color: black;
       padding: 15px;
     }
     </style>
 
 </head>
 <body>
-<footer class="container-fluid text-left color-pink">
+<footer class="container-fluid text-left ">
   <p>      
 <span class="glyphicon glyphicon-copyright-mark"></span> Maquillage 2016</p>
 
@@ -33,7 +33,7 @@
         </a>
   </form>
   <div class="container text-center">
-<a href="aboutus.jsp" >About Us </a>
+<a href="file:///C:/Users/Sneha/Desktop/Cosmetics/abt%20us.html" >About Us </a>
 </div>
 <div class=" container-fluid text-right">
 <i style="font-size:36px" class="fa">&#xf230;</i>

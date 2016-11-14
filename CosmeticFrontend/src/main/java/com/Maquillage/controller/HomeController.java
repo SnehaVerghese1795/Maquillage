@@ -51,7 +51,7 @@ public class HomeController {
 	public String login(Model model)
 	{
 		model.addAttribute("userClickedLogin","true");
-		return "index";
+		return "login";
 	}
 	@RequestMapping("/aboutus")
 	public String aboutus(Model model)

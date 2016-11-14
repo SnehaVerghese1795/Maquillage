@@ -15,7 +15,7 @@
     .navbar {
       margin-bottom:10;
       border-radius:40;
-      background-color:pink;
+      background: transparent !important;
       font-color:gray;
     }
     </style>
@@ -37,26 +37,26 @@
     </div>
     <div class="collapse navbar-collapse" id="myNavbar">
       <ul class="nav navbar-nav">
-<li class="dropdown"><a style="color:gray;" class="dropdown-toggle" data-toggle="dropdown" href="#">Collections <span class="caret"></span></a>
+<li class="dropdown"><a style="color:black;" class="dropdown-toggle" data-toggle="dropdown" href="#">Collections <span class="caret"></span></a>
         <ul class="dropdown-menu">
           <li><a href="#">Cream</a></li>
           <li><a href="#">Gel</a></li>
           <li><a href="#">Liquid Powder</a></li>
           </ul> 
-<li class="dropdown"><a style="color:gray;" class="dropdown-toggle" data-toggle="dropdown" href="#">Skin Care<span class="caret"></span></a>
+<li class="dropdown"><a style="color:black;" class="dropdown-toggle" data-toggle="dropdown" href="#">Skin Care<span class="caret"></span></a>
         <ul class="dropdown-menu">
           <li><a href="#">Cleansers</a></li>
           <li><a href="#">Toners</a></li>
           <li><a href="#">Exfoliators</a></li>
           </ul> 
-<li class="dropdown"><a style="color:gray;" class="dropdown-toggle" data-toggle="dropdown" href="#">Make Up<span class="caret"></span></a>
+<li class="dropdown"><a style="color:black;" class="dropdown-toggle" data-toggle="dropdown" href="#">Make Up<span class="caret"></span></a>
         <ul class="dropdown-menu">
           <li><a href="#">Foundation</a></li>
           <li><a href="#">Primer</a></li>
           <li><a href="#">Exfoliators</a></li>
          </ul>
 
-       <li class="dropdown"><a style="color:gray;" class="dropdown-toggle" data-toggle="dropdown" href="#">Fragrance<span class="caret"></span></a>
+       <li class="dropdown"><a style="color:black;" class="dropdown-toggle" data-toggle="dropdown" href="#">Fragrance<span class="caret"></span></a>
         <ul class="dropdown-menu">
           <li><a href="#">La Vie Est Belle</a></li>
           <li><a href="#">Tresor Midnight Rose</a></li>
@@ -67,14 +67,14 @@
       
      <ul class="nav navbar-nav navbar-right">
      <c:if test="${not empty SuccessMessage}">
-     	<li><a style="color:gray;" href="#">My Cart<span class="glyphicon glyphicon-shopping-cart"></span></a></li>
-		<li><a style="color:gray;" href="#">Logout<span class="glyphicon glyphicon-log-out"></span></a></li>
+     	<li><a style="color:black;" href="#">My Cart<span class="glyphicon glyphicon-shopping-cart"></span></a></li>
+		<li><a style="color:black;" href="#">Logout<span class="glyphicon glyphicon-log-out"></span></a></li>
 	</c:if>
 	</ul>
 	<ul class="nav navbar-nav navbar-right">
 	<c:if test="${empty SuccessMessage}">
-		<li><a style="color:gray;" href="login">Login<span  class="glyphicon glyphicon-log-in"></span></a></li>
-		<li><a style="color:gray;" href="registeration">Sign Up<span class="glyphicon glyphicon-user"></span></a></li>
+		<li><a style="color:black;" href="login">Login<span  class="glyphicon glyphicon-log-in"></span></a></li>
+		<li><a style="color:black;" href="registeration">Sign Up<span class="glyphicon glyphicon-user"></span></a></li>
 	</c:if>
 	</ul>
     </div>
