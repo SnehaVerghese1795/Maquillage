@@ -15,7 +15,7 @@ import org.springframework.orm.hibernate4.LocalSessionFactoryBuilder;
 import org.springframework.transaction.annotation.EnableTransactionManagement;
 
 @Configuration
-@ComponentScan("com.niit.shopingcart")
+@ComponentScan("com.Maquillage")
 @EnableTransactionManagement
 public class ApplicationContextConfig {
 

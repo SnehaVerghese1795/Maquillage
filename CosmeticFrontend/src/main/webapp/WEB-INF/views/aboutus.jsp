@@ -17,7 +17,7 @@
 <div class="slideShow">
 
 
-<img alt="Discover Maquillage" src="file:///C:/Users/Sneha/Desktop/Cosmetics/LOreal-India-Brand-Ambassadors.jpg" style="width:1189px; height: 520px;">
+<img alt="Discover Maquillage" src="/images/Image-1.jpg" style="width:1189px; height: 520px;">
 
  
 <ul class="paging" style="display:none;">

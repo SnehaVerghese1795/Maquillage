@@ -18,7 +18,7 @@
     z-index: 1;
     top: 0;
     left: 0;
-    background-color: #ffb3b3;;
+    background-color:pink;
     overflow-x: hidden;
     transition: 0.5s;
     padding-top: 60px;
@@ -28,7 +28,7 @@
     padding:8px 8px 8px 32px;
     text-decoration: none;
     font-size: 15px;
-    color: #818181;
+    color: black;
     display: block;
     transition: 0.3s;
 }
@@ -57,9 +57,8 @@
 <div class="container-fluid ">
   <div class="row content">
     <div id="mySidenav" class="sidenav">
-  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-  <a href="#">Blush</a>
-  <a href="#">Bronzers</a>
+  <a href="javascript:void(0)"   class="closebtn" onclick="closeNav()">&times;</a>
+  <a href="#" font face="AR DECODE">Bronzers</a>
   <a href="#">Brushes</a>
   <a href="#">Cleansers</a>
   <a href="#">Concealer</a>
@@ -67,7 +66,7 @@
   <a href="#">Eye Liners</a>
 </div>
 
-<span style="font-size:20px;cursor:pointer;color:#808080" onclick="openNav()">&#9776; Products</span>
+<span style="font-size:20px;cursor:pointer;color:black" onclick="openNav()">&#9776; Products</span>
 <hr>
 
 <script>
