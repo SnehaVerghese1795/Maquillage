@@ -53,7 +53,7 @@
         <ul class="dropdown-menu">
           <li><a href="#">Foundation</a></li>
           <li><a href="#">Primer</a></li>
-          <li><a href="#">Exfoliators</a></li>
+          <li><a href="#">Lip Stick</a></li>
          </ul>
 
        <li class="dropdown"><a style="color:black;" class="dropdown-toggle" data-toggle="dropdown" href="#">Fragrance<span class="caret"></span></a>

@@ -15,7 +15,7 @@
 <style>
 body
 {
-background-image:url(file:///C:/Users/Sneha/Desktop/Cosmetics/pink-wallpaper.jpg);
+background-image:url(http://www.hairportsalonandspa.com/uploads/HD6954L__90534.jpg);
 background-size:150%;
 background-repeat: no-repeat;
 
